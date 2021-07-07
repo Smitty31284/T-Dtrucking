@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 class="small_app"><strong>Simple Application</strong></h1>
+  <hr>
+  <div class="app">
+    <form class="application" action="index.html" method="get">
+
+      <table>
+        <tr class="tr">
+          <td class="td"><label for="inputFName">First Name</label></td>
+          <td class="td"><input type="text" name="firstname" class="First_name" id="input_firstname" placeholder="Enter your First Name" required="required"></td>
+        </tr>
+        <tr class="tr">
+          <td class="td"><label for="inputLName">Last Name</label></td>
+          <td class="td"><input type="text" name="firstname" class="last_name" id="input_firstname" placeholder="Enter your Last Name" required="required"></td>
+        </tr>
+        <tr class="tr">
+          <td class="td"><label for="inputAddress">Address</label></td>
+          <td class="td"><input type="text" name="address" class="address" id="input_address" placeholder="1234 Main St"></td>
+        </tr>
+        <tr class="tr">
+          <td class="td"><label for="inputCity">City</label></td>
+          <td class="td"><input type="text" name="city" class="city" id="input_city" required="required" placeholder="City"></td>
+        </tr>
+        <tr class="tr">
+          <td class="td"><label for="inputZip">Zip</label></td>
+          <td class="td"><input type="text" name="zip" class="zip" id="input_zip" placeholder="28806"></td>
+        </tr>
+        <tr class="tr">
+          <td class="td"><label for="inputPhone">Phone Number</label></td>
+          <td class="td"><input type="tel" name="tel" class="form-control" placeholder="(828)665-0315" required="required" id="tel-input"></td>
+        </tr>
+        <tr class="tr">
+          <td class="td"><label for="inputEmail" required="required">Email Address</label></td>
+          <td class="td"><input type="email" name="email" class="email" id="input_email" aria-describedby="emailHelp" placeholder="Enter your email address"></td>
+        </tr>
+        <tr class="tr">
+          <td class="td"><label for="inputExperience">Years of Experience</label></td>
+          <td class="td"><input type="number" name="experience" class="experience" min="2" max="70" id="input_experience" required="required" placeholder="years"></td>
+        </tr>
+      </table>
+      <button class="submitbutton" type="submit" name="submit">Submit</button>
+    </form>
+  </div>
+
+</body>
+
+</html>
